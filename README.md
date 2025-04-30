@@ -6,7 +6,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/TrueSelph/typesense_retrieval_interact_action)
 ![GitHub](https://img.shields.io/github/license/TrueSelph/typesense_retrieval_interact_action)
 
-JIVAS action for performing retrieval operations against the Typesense store, supporting retrieval-augmented generation tasks.
+JIVAS action for performing retrieval operations against the Typesense vector store, supporting retrieval-augmented generation tasks. As a core interact action, it plays a pivotal role in enhancing data retrieval processes and generating comprehensive results for queries. Configured as a singleton, it requires the Jivas library version 2.0.0 and depends on both `persona_interact_action` and `typesense_vector_store_action` for its functionality.
 
 ## Package Information
 
@@ -31,10 +31,8 @@ JIVAS action for performing retrieval operations against the Typesense store, su
 
 - **Jivas:** `^2.0.0`
 - **Actions:**
-  - `jivas/persona_interact_action`: `^0.0.1`
-  - `jivas/typesense_vector_store_action`: `^0.0.1`
-
-This package, developed by V75 Inc., is designed to perform standard retrieval operations against the Typesense store, supporting tasks centered on retrieval-augmented generation. As a core interact action, it plays a pivotal role in enhancing data retrieval processes and generating comprehensive results for queries. Configured as a singleton, it requires the Jivas library version 2.0.0 and depends on both `persona_interact_action` and `typesense_vector_store_action` for its functionality.
+  - `jivas/persona_interact_action`: `>=0.0.1`
+  - `jivas/typesense_vector_store_action`: `>=0.0.1`
 
 ---
 
@@ -122,4 +120,4 @@ vector_store_action = "TypesenseVectorStoreAction"
 
 ## 🎗 License
 
-This project is protected under the Apache License 2.0. See [LICENSE](./LICENSE) for more information.
+This project is protected under the Apache License 2.0. See [LICENSE](../LICENSE) for more information.
