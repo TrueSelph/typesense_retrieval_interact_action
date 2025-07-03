@@ -1,6 +1,6 @@
 """This module contains the main controls for the Typesense Retrieval Interact Action."""
 
-from jvcli.client.lib.widgets import app_controls, app_header, app_update_action
+from jvclient.lib.widgets import app_controls, app_header, app_update_action
 from streamlit_router import StreamlitRouter
 
 
