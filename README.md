@@ -6,7 +6,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/TrueSelph/typesense_retrieval_interact_action)
 ![GitHub](https://img.shields.io/github/license/TrueSelph/typesense_retrieval_interact_action)
 
-JIVAS action for performing retrieval operations against the Typesense vector store, supporting retrieval-augmented generation tasks. As a core interact action, it plays a pivotal role in enhancing data retrieval processes and generating comprehensive results for queries. Configured as a singleton, it requires the Jivas library version 2.0.0 and depends on both `persona_interact_action` and `typesense_vector_store_action` for its functionality.
+JIVAS action for performing retrieval operations against the Typesense vector store, supporting retrieval-augmented generation tasks. As a core interact action, it plays a pivotal role in enhancing data retrieval processes and generating comprehensive results for queries. Configured as a singleton, it requires the Jivas library version 2.1.0 and depends on both `persona_interact_action` and `typesense_vector_store_action` for its functionality.
 
 ## Package Information
 
@@ -29,10 +29,10 @@ JIVAS action for performing retrieval operations against the Typesense vector st
 
 ## Dependencies
 
-- **Jivas:** `^2.0.0`
+- **Jivas:** `^2.1.0`
 - **Actions:**
-  - `jivas/persona_interact_action`: `>=0.0.1`
-  - `jivas/typesense_vector_store_action`: `>=0.0.1`
+  - `jivas/persona_interact_action`: `>=0.1.0`
+  - `jivas/typesense_vector_store_action`: `>=0.1.0`
 
 ---
 

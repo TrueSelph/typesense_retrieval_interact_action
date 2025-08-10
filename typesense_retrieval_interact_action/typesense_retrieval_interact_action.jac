@@ -1,9 +1,9 @@
-import:py logging;
-import:py traceback;
-import:py from logging { Logger }
-import:jac from jivas.agent.action.retrieval_interact_action { RetrievalInteractAction }
+import logging;
+import traceback;
+import from logging { Logger }
+import from jivas.agent.action.retrieval_interact_action { RetrievalInteractAction }
 
-node TypesenseRetrievalInteractAction :RetrievalInteractAction: {
+node TypesenseRetrievalInteractAction(RetrievalInteractAction) {
     # Integrates with vector database for retrieval augmented generation tasks
 
     # set up logger
