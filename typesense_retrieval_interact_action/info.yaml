@@ -2,7 +2,7 @@ package:
   name: jivas/typesense_retrieval_interact_action
   author: V75 Inc.
   archetype: TypesenseRetrievalInteractAction
-  version: 0.1.0
+  version: 0.1.1
   meta:
     title: Typesense Retrieval Interact Action
     description: Implements standard retrieval operations against the typesense store for retrieval augmented generation tasks
